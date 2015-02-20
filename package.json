@@ -1,0 +1,35 @@
+{
+  "name": "coyno-watchdog",
+  "version": "0.0.1",
+  "description": "Listening for new transactions and passing them in the DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coyno/coyno-watchdog.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "watching",
+    "websockets",
+    "blockchain",
+    "transactions"
+  ],
+  "author": {
+    "name": "Levin Keller",
+    "email": "levin@coyno.com"
+  },
+  "license": "All rights reserved",
+  "bugs": {
+    "url": "https://github.com/coyno/coyno-watchdog/issues"
+  },
+  "homepage": "https://github.com/coyno/coyno-watchdog",
+  "dependencies": {
+    "coyno-dispatcher": "0.0.12",
+    "coyno-mongo": "0.0.17",
+    "underscore": "^1.7.0",
+    "websocket": "^1.0.17"
+  }
+}
